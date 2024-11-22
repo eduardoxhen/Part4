@@ -373,7 +373,7 @@ button {
   }
 
     @media screen and (max-width:1250px){
-        img_fund{
+        .img_fund{
             display: none;
         }
     }
