@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Turismo Fluminense</title>
+    <link rel="icon" href="img/logo.png">
+</head>
+<header>
+    <div class="container center">
+            
+            <div class="item">
+               <a href="index.html"><img src="img/logo_branca.png" alt="" width="100px" height="100px"></a>
+            </div>
+            <div class="item p">
+                <p>Turismo Fluminense</p>
+            </div>
+
+            <div class="item letra">
+                <a href="filtro/index.html"><p>Pontos Fluminense</p></a>
+            </div>
+            <div class="item letra">
+                <a href="sobre.html"><p>Sobre Nós</p></a>
+            </div>
+        </div>
+</header>
+<body>
+    <div id="fundo">
+        <p>Seja bem vindo ao site do Turismo Fluminense. Conheça a rica cultura fluminense e seus pontos turísticos para visitar perto de você, selecione sua região por meio do nosso filtro e escolha o lugar para o seu próximo passeio perto de você! 
+            A baixada fluminense é um local rico culturalmente e deve ser conhecido por seus moradores, porém a falta de acesso e conhecimento desses locais pode levar a uma invisibilização deles, assim, no nosso site você poderá conhecer os melhores pontos turísticos da baixada fluminense perto de você.
+        </p>
+        <div class="img_fund">
+            <img src="img/logo_branca.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="carousel-container">
+        <div class="carousel" id="carousel">
+            <div id="panel1" class="panel">
+                <a href="Regiões/parquenatural.html"><img src="img/conjunto-img/Parque Natural da Taquara_page-0001 (1).jpg" height="500px"alt=""></a>
+            </div>
+            <div class="panel">
+
+                <a href="Regiões/guapimirim/golfinho.html"><img src="img/conjunto-img/Sustaining Water, Sustaining Life._20241121_182544_0000.jpg" alt="" height="500px"></a>
+            </div>
+            <div class="panel">
+                <img src="img/conjunto-img/instituto.png" alt="" height="500px">
+            </div>
+            <div class="panel">
+                <img src="img/conjunto-img/janeladoceu.png" alt="" height="500px">
+            </div>
+            
+            <!-- Adicione os outros três painéis semelhantes aqui -->
+        </div>
+        <button class="prev" onclick="changePanel(-1)">&#8249;</button>
+        <button class="next" onclick="changePanel(1)">&#8250;</button>
+    </div>
+    <br>
+    <div class="carousel-container1">
+        <div class="carousel1" id="carousel1">
+            <div id="panel11" class="panel1">
+                <a href="Regiões/parquenatural.html"><img src="img/conjunto-img/Parque Natural da Taquara_page-0001 (1).jpg" height="400px"alt=""></a>
+            </div>
+            <div class="panel1">
+                <a href="Regiões/guapimirim/golfinho.html"><img src="img/conjunto-img/Sustaining Water, Sustaining Life._20241121_182544_0000.jpg" alt="" height="400px"></a>
+            </div>
+            <div class="panel1">
+                <img src="img/conjunto-img/instituto.png" alt="" height="400px">
+            </div>
+            <div class="panel1">
+                <img src="img/conjunto-img/janeladoceu.png" alt="" height="400px">
+            </div>
+            
+            <!-- Adicione os outros três painéis semelhantes aqui -->
+        </div>
+        <button class="prev" onclick="changePanel2(-1)">&#8249;</button>
+        <button class="next" onclick="changePanel2(1)">&#8250;</button>
+    </div>
+    <br>
+    <script src="js/script.js"></script>
+    
+    <div class="Popular">
+        <div id="pops">
+            Recomendações
+        </div>
+        <section class="justify-itemsa center">
+            <div class="imagem" id="img1">
+            
+                <div class="texto"><h1>Museu Ciência e Vida</h1><br>
+                <p>Endereço: R. Aílton da Costa, S/N -<br> Jardim Vinte e Cinco de Agosto, Duque de Caxias<br>
+                Telefone: (21) 2334-1574<br>
+                Horário de funcionamento:<br>
+                Sábado, Domingo e Segunda: Fechado<br> 
+                
+                De Terça à Sexta: 09:00–17:00<br>
+
+                </p>
+                </div>
+            </div>
+
+            <div class="imagem" id="img2">
+            
+                <div class="texto"><h1>Castelos do Açu</h1><br>
+                <p>Endereço: Parque Nacional Serra dos Orgãos – PARNASO<br>
+                Telefone: (24) 2236-0464<br>
+                Horário de funcionamento:<br>
+                
+                De Segunda à Segunda: 08:00–17:00<br>
+
+                </p>
+                </div>
+            </div>
+            
+            <div class="imagem" id="img3">
+            
+                <div class="texto"><h1>Parque Natural Municipal de Nova Iguaçu</h1><br>
+                <p>Endereço: Parque Natural Municipal de Nova Iguaçu<br>
+                Contato: parquemunicipal@gmail.com<br>
+                Horário de funcionamento:<br>
+                Segunda-feira: Fechado<br> 
+                
+                De Terça à Domingo: 08:00–16:00<br>
+
+                </p>
+                </div>
+                </div>
+
+                <div class="imagem" id="img4">
+            
+                    <div class="texto"><h1>Floresta Nacional Mario Xavier</h1><br>
+                    <p>Endereço: Rodovia BR-465, Km 05, Seropédica - RJ<br>
+                    Contato: (21) 3682-8277<br>
+                    Horário de funcionamento:<br>
+                    Sábado,Domingo: Fechado<br> 
+                    
+                    De Segunda à Sexta: 08:00–18:00<br>
+    
+                    </p>
+                    </div>
+            </div>
+        </section>
+    </div>
+
+    <fieldset>
+        <div class="roda">
+            <div >
+                <img src="img/email.png" alt="">
+            </div>
+            <div >
+                <p>turismofluminense@gmail.com </p>
+            </div>
+        </div>
+        <div class="roda">
+            <div >
+                <img src="img/instagram.png" alt="">
+            </div>
+            <div >
+                <a href="http://www.instagram.com/turismo_fluminense?igsh=YzRleTMwZ2xrOWk1"><p>@turismo_fluminense</p></a>
+            </div>
+        </div>
+    </fieldset>
+
+
+</body>
+</html>
