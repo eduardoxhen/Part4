@@ -1,0 +1,172 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://use.typekit.net/yxm7oft.css");
+
+:root{
+--name: "Poppins", sans-serif;
+}
+
+:root{
+--ubunto: "Ubuntu", sans-serif;    
+}
+
+
+:root{
+    --fotr: "Bebas Neue";
+    --tittle: "Fjalla One", sans-serif;
+    --menu: "muli", sans-serif;
+  }
+
+*{
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: none;
+    overflow-x: hidden;
+}
+
+ header{   min-height: 125px;
+    max-width: 100vw;
+    background-color:#FB8A39;
+  }
+
+ body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color:#ffffff; /* Cor de fundo do corpo da página */
+    color: #333; /* Cor do texto padrão */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 200px 300px 200px;
+}
+
+
+
+.item {
+  text-align: center;
+}
+
+
+.p{
+  margin-top: 5px;
+  text-align: start;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: var(--tittle);
+  justify-items:center;
+  align-content: center;
+  letter-spacing: 2px;
+
+}
+
+.item img{
+  margin-top: 5px;
+}
+
+.letra{
+  
+  justify-items:center;
+  align-content: center;
+ 
+
+}
+
+a:link{text-decoration: none;}
+
+
+.letra p{
+  font-family: var(--menu);
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.letra p:hover{
+  font-family: var(--menu);
+  font-size: 27px;
+  transition:0.1s;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+
+  
+}
+
+  #fundo{background: linear-gradient(to top, #FB8A39,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)),url(../img/Cópia\ de\ Dark\ Green\ Modern\ Gradient\ Wave\ Linktree\ Background.png);
+    display: flex;
+    width: 100vw;
+    height: 800px;
+  
+
+  }
+
+  #fundo p{
+    
+    padding-top: 90px;
+    padding-left: 100px;
+    font-size: 35px;
+    font-family: var(--ubunto);
+    width: 800px;
+    color: white;
+  }
+
+    .img_fund{
+        float: right;
+        margin-left: 300px;
+        margin-top: 50px;
+
+
+    }
+
+    fieldset{
+      min-height: 200px;
+      max-width: 100vw;
+      background-color: #FB8A39;
+      
+    }
+    .roda{
+      display: flex;
+    }
+    fieldset img{
+      width: 30px;
+      height: 30px;
+      margin:35px 0px 0px 20px;
+    }
+  
+    fieldset p{
+      margin:40px 0px 0px 20px;
+      font-size: 20px;
+      color:black;
+    }
+    fieldset a:link{
+      text-decoration:none;
+      color:black;
+
+    }
+    @media screen and (min-width:1500px){
+      .carousel-container1{
+        display: none;}
+      
+    }
+
+
+    @media screen and (max-width:1500px){
+      .carousel-container{
+        display: none;
+      }      .justify-itemsa{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 400px);
+      
+      }
+      
+        
+  }
+      
