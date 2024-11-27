@@ -73,7 +73,7 @@ const families = [{
         id: 'recyqtRglGNGtO4Q5',
         title: 'Praça do Araruama',
         family: 'São João de Meriti',
-        image: '../img/conjunto-img/Praca do Araruama.webp',
+        image: '../img/conjunto-img/pracaararuama.jpg',
         url: ''
     },
     {
