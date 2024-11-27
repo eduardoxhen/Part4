@@ -50,9 +50,9 @@ const families = [{
     },
     {
         id: 'recyqtRglGNGtO4Q5', 
-        title: 'Usina de Cultura Jornalista Tim Lopes',
+        title: 'Parque do Gericinó',
         family: 'Nilópolis',
-        image: '../img/conjunto-img/Usina de cultura jornalista tim lopes.jpg',
+        image: '../img/conjunto-img/entrada-do-parque-do-gericino.webp',
         url: ''
     },
     {
