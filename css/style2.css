@@ -43,7 +43,7 @@
 
 .container {
   display: grid;
-  grid-template-columns: 200px 200px 300px 200px;
+  grid-template-columns: 200px 200px 300px;
 }
 
 
@@ -100,7 +100,7 @@ a:link{text-decoration: none;}
   
 }
 
-  #fundo{background: linear-gradient(to top, #FB8A39,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)),url(../img/Cópia\ de\ Dark\ Green\ Modern\ Gradient\ Wave\ Linktree\ Background.png);
+  .fundo{background: linear-gradient(to top, #FB8A39,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)),url(../img/Cópia\ de\ Dark\ Green\ Modern\ Gradient\ Wave\ Linktree\ Background.png);
     display: flex;
     width: 100vw;
     height: 800px;
@@ -108,7 +108,16 @@ a:link{text-decoration: none;}
 
   }
 
-  #fundo p{
+  .center {
+    justify-items: center;
+  }
+
+  iframe{margin-top: 75px;
+  margin-left: 100px;
+border: none;}
+
+  .fundo p{
+    text-align: justify;
     
     padding-top: 90px;
     padding-left: 100px;
@@ -118,13 +127,6 @@ a:link{text-decoration: none;}
     color: white;
   }
 
-    .img_fund{
-        float: right;
-        margin-left: 300px;
-        margin-top: 50px;
-
-
-    }
 
     fieldset{
       min-height: 200px;
@@ -151,21 +153,38 @@ a:link{text-decoration: none;}
       color:black;
 
     }
-    @media screen and (min-width:1500px){
-      .carousel-container1{
-        display: none;}
-      
+
+
+    @media screen and (max-width:1680px){.fundo{height: 700px;}
+      .fundo p{
+        padding-left: none;
+        padding-top: 90px;
+        font-size: 25px;
+       
+      }
+      iframe{width:600px;
+      height: 400px;}
+
     }
 
-
-    @media screen and (max-width:1500px){
-      .carousel-container{
-        display: none;
-      }      .justify-itemsa{
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 400px);
-      
+    @media screen and (max-width:1440px){
+      .fundo{
+        flex-direction: column;
+        height:1200px;
       }
+      .a{width: 100%;}
+      .fundo p{
+        text-align: center;
+        padding-left: none;
+        padding-top: 90px;
+        font-size: 25px;
+        font-family: var(--ubunto)
+      }
+      iframe{margin-left: 0px;
+        align-items: center;}
+      #sim{width: 100%;
+      padding-left: 0%;}
+
       
         
   }
