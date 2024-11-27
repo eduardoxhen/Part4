@@ -53,7 +53,7 @@ const families = [{
         title: 'Parque do Gericinó',
         family: 'Nilópolis',
         image: '../img/conjunto-img/entrada-do-parque-do-gericino.webp',
-        url: ''
+        url: '../Regiões/nilopolis/gericino.html'
     },
     {
         id: 'recyqtRglGNGtO4Q5',
