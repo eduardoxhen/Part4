@@ -290,7 +290,7 @@ button {
   }
 
   #fundo p{
-    
+    text-align: justify;
     padding-top: 90px;
     padding-left: 100px;
     font-size: 35px;
