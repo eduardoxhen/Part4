@@ -10,14 +10,14 @@ const families = [{
         title: 'Floresta Nacional Mario Xavier',
         family: 'Seropédica',
         image: '../img/conjunto-img/Xavier.png',
-        url: '../regiões/seropedica/xavier.html'
+        url: '../Regiões/seropedica/xavier.html'
     },
     {
         id: 'recNWGyP7kjFhSqw3',
         title: 'Museu Ciência e Vida',
         family: 'Duque de Caxias',
         image: '../img/conjunto-img/ciencia\ e\ vida.JPG',
-        url: '../regiões/caxias/cienciaevida.html'
+        url: '../Regiões/caxia/ciencia.html'
     },
     {
         id: 'recZEougL5bbY4AEx',
