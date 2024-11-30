@@ -135,6 +135,28 @@ height: 500px;
   justify-items: center;
 }
 
+fieldset{background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	width: 1265px;
+	height: 400px;
+	margin: 0px;
+	border: none;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	font-size: 15px;
+
+}
+
+fieldset h2{
+	margin-left: 20px;
+	margin-top: 30px;		
+}
+
+fieldset p{
+	margin-left: 20px;
+	margin-top: 30px;		
+}
+
 @keyframes mudarImagem {
 	from {
 		opacity: 0.85;
