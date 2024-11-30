@@ -82,5 +82,12 @@ const families = [{
         image: '../img/conjunto-img/pracaararuama.jpg',
         url: ''
     },
+        {
+        id: 'recyqtRglGNGtO4w5',
+        title: 'Casa de Cultura Marise Moreira de Brito',
+        family: 'Itaguaí',
+        image: '../img/conjunto-img/i.jpg',
+        url: ''
+    },
     
 ];
