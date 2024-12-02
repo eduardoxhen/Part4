@@ -339,14 +339,13 @@ button {
     /* Estilos padrão */
 
     .ler-texto-btn {
-      border-radius: 200px;
       height: 150px;
       position: fixed;
       bottom: 20px;
       right: 20px;
       padding: 10px 20px;
       background-color: #ffffff;
-        color:black;
+      color:black;
       font-size: 16px;
       border: none;
       border-radius: 5px;
