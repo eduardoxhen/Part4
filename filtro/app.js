@@ -6,7 +6,7 @@ const productsContainer = document.querySelector('.products-container');
 
 const displayProducts = () =>{
     if(filteredProducts.length < 1){
-        productsContainer.innerHTML = `<h5>Desculpe, não há resultado para sua pesquisa, para sugerir locais <a href="../../ponto.html" target="_blank" class="card-link">clique aqui </a>  </h5>`;
+        productsContainer.innerHTML = `<h5>Desculpe, não há resultado para sua pesquisa, para sugerir locais <a href="../ponto.html" target="_blank" class="card-link">clique aqui </a>  </h5>`;
         return;
     }else{
         productsContainer.innerHTML = filteredProducts.map((product)=>{
