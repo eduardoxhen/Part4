@@ -107,7 +107,7 @@ a:link{text-decoration: none;}
 
 .container {
   display: grid;
-  grid-template-columns: 200px 200px 300px 200px;
+  grid-template-columns: 200px 200px 300px 200px 200px;
 }
 
 
