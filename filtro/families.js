@@ -38,7 +38,7 @@ const families = [{
         title: 'Castelos do Açu',
         family: 'Magé',
         image: '../img/conjunto-img/castelos de açu.jpg',
-        url: '../regiões/nova_iguacu/castelos.html'
+        url: '../Regiões/nova_iguacu/castelos.html'
     },
     {
         id: 'recjMK1jgTb2ld7sv',
